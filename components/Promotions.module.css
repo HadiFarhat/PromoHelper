@@ -1,0 +1,72 @@
+.inputContainer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputBox, .submitButton {
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.inputBox {
+    width: calc(70% - 20px);
+}
+
+.submitButton {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.promotionsContainer {
+    margin-top: 20px;
+}
+
+.promotionItem {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.promotionItem:hover {
+    background-color: #f9f9f9;
+}
+
+.applicable {
+    background-color: #e0f5e0;
+}
+
+.details {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.details h4 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.filterCheckbox {
+    margin: 20px 0;
+    text-align: center;
+}
